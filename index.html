@@ -1,24 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html id="html_id" lang="en">
 
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-      crossorigin="anonymous">-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
       crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="jquery-serialize-object/jquery.serialize-object.js"></script>
-    <script src="https://kit.fontawesome.com/ea11903601.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e6b316154a.js" crossorigin="anonymous"></script>
     <title>My Portfolio Page</title>
   </head>
 
 <body class="bodystyle" style="background-image: url(img/luca-bravo-zAjdgNXsMeg-unsplash.jpg); background-size: cover;background-attachment: fixed;">
-  <!-- START HERE -->
+  <div id="test1">
   <div class="container my-2 p-0 border border-dark" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2);">
     <header id="main-header">
       <div class="row no-gutters">
@@ -57,7 +54,7 @@
             </div>
 
             <div class="p-4 bg-grey">
-              <em>Aspiring Software Developer</em>
+              <em>Frontend Web Developer | UX Design Enthusiast</em>
             </div>
             
             <div id="mainbuttons">
@@ -67,12 +64,12 @@
                   <span class="d-none d-sm-block">Home</span>
                 </div>
                 <div class="port-item p-4 bg-cv" data-toggle="collapse" data-target="#resume">
-                  <i class="fas fa-briefcase fa-2x d-block"></i>
-                  <span class="d-none d-sm-block">CV</span>
+                  <i class="fas fa-pen-ruler fa-2x d-block"></i>
+                  <span class="d-none d-sm-block">UX Design</span>
                 </div>
                 <div class="port-item p-4 bg-projects" data-toggle="collapse" data-target="#work">
                   <i class="fas fa-code-branch fa-2x d-block"></i>
-                  <span class="d-none d-sm-block">Projects</span>
+                  <span class="d-none d-sm-block">Coding</span>
                 </div>
                 <div class="port-item p-4 bg-contact" data-toggle="collapse" data-target="#contact">
                   <i class="fas fa-envelope-open fa-2x d-block"></i>
@@ -91,141 +88,108 @@
         <h2>Welcome To My Page</h2>
         <p class="lead">On the following pages I want to give you a brief overview of me as a person and my professional experience.</p>
       </div>
+        <div class="card card-body py-5 rounded-0">
+          <h3>Main areas of expertise</h3>
+          <hr>
+          <h4 style="text-align: center">HTML · CSS · Javascript · Typescript · ReactJS · NodeJS · jQuery · SQL · Java</h4>
+          <br>
+          <h3>Professional experience (excerpt)</h3>
+          <div class="card-deck mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Kickscale</h4>
+                <p class="card-text">Development of a marketing and sales platform using Typescript and ReactJS.</p>
+                <p class="p-2 mb-3 bg-light text-dark">
+                  Position: Frontend Web Developer
+                </p>
+              </div>
+              <div class="card-footer bg-dark">
+                <h6 class="text-white">
+                  Since 11/2021
+                </h6>
+              </div>
+            </div>
 
-      <div class="card card-body py-5 rounded-0">
-        <h3>My Skills</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores id corporis consequatur aliquam nulla blanditiis.</p>
-        <hr>
-        <h4>HTML 5</h4>
-        <div class="progress mb-3">
-          <div class="progress-bar bg-bar" style="width: 40%"></div>
-        </div>
-        <h4>CSS 3</h4>
-        <div class="progress mb-3">
-          <div class="progress-bar bg-bar" style="width: 20%"></div>
-        </div>
-        <h4>JavaScript</h4>
-        <div class="progress mb-3">
-          <div class="progress-bar bg-bar" style="width: 30%"></div>
-        </div>
-        <h4>Java</h4>
-        <div class="progress mb-3">
-          <div class="progress-bar bg-bar" style="width: 40%"></div>
-        </div>
-        <h4>SQL</h4>
-        <div class="progress mb-3">
-          <div class="progress-bar bg-bar" style="width: 10%"></div>
-        </div>
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Startbahn</h4>
+                <p class="card-text">Guidance and consultation of long-term unemployed clients.</p>
+                <p class="p-2 mb-3 bg-light text-dark">
+                  Position: Social Worker
+                </p>
+              </div>
+              <div class="card-footer bg-dark">
+                <h6 class="text-white">
+                  2020 - 2021
+                </h6>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Kakao Games</h4>
+                <p class="card-text">Freelance localization specialist for a Korean video game publisher.</p>
+                <p class="p-2 mb-3 bg-light text-dark">
+                  Position: Translator (EN>GER)
+                </p>
+              </div>
+              <div class="card-footer bg-dark">
+                <h6 class="text-white">
+                  2017 - 2019
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <h3>Where did I get my training?</h3>
+          <div class="card-deck">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Coders.bay Vienna</h4>
+                <p class="card-text">6 month long coding bootcamp focused on Web Development (SPAs, various frameworks, NodeJS), Java (+ Software Engineering) and Databases (MySQL, NoSQL).</p>
+                <p class="p-2 mb-3 bg-light text-dark">
+                  Software Development Certificate
+                </p>
+              </div>
+              <div class="card-footer bg-dark">
+                <h6 class="text-white">
+                  04/2021 - 10/2021
+                </h6>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Kingston University London</h4>
+                <p class="p-2 mb-3 bg-light text-dark">
+                  MA Human Rights
+                </p>
+              </div>
+              <div class="card-footer bg-dark">
+                <h6 class="text-white">
+                  2013 - 2014
+                </h6>
+              </div>
+            </div>
+
+            <div class="card">
+              <div style="margin-bottom: 0" class="card-body">
+                <h4 class="card-title">FH Campus Wien</h4>
+                <p class="p-2 mb-3 bg-light text-dark">
+                  Social Work
+                </p>
+              </div>
+              <div class="card-footer bg-dark">
+                <h6 class="text-white">
+                  2010 - 2012
+                </h6>
+              </div>
+            </div>
+          </div>
       </div>
     </div>
 
-    <!-- RESUME -->
-    <div id="resume" class="collapse">
-      <div class="card card-body bg-cv py-5 rounded-0">
-        <h2>My CV</h2>
-        <p class="lead">A summary of my latest work experience and professional training</p>
-      </div>
-
-      <div class="card card-body py-5 rounded-0">
-        <h3>Where Have I Worked?</h3>
-        <div class="card-deck mb-3">
-          <div class="card">
-            <div class="card-body">
-              <h4 class="card-title">Devmasters</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, enim.</p>
-              <p class="p-2 mb-3 bg-light text-dark">
-                Position: Full Stack Developer
-              </p>
-            </div>
-            <div class="card-footer bg-dark">
-              <h6 class="text-white">
-                2015 - 2018
-              </h6>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-body">
-              <h4 class="card-title">123 Designs</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, enim.</p>
-              <p class="p-2 mb-3 bg-light text-dark">
-                Position: Web Designer
-              </p>
-            </div>
-            <div class="card-footer bg-dark">
-              <h6 class="text-white">
-                2013 - 2015
-              </h6>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-body">
-              <h4 class="card-title">Web Designer Pros</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, enim.</p>
-              <p class="p-2 mb-3 bg-light text-dark">
-                Position: Web Designer
-              </p>
-            </div>
-            <div class="card-footer bg-dark">
-              <h6 class="text-white">
-                2010 - 2013
-              </h6>
-            </div>
-          </div>
-        </div>
-        
-        <h3>Where did I get my training?</h3>
-        <div class="card-deck">
-          <div class="card">
-            <div class="card-body">
-              <h4 class="card-title">Coders.bay</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, enim.</p>
-              <p class="p-2 mb-3 bg-light text-dark">
-                Software Developer
-              </p>
-            </div>
-            <div class="card-footer bg-dark">
-              <h6 class="text-white">
-                Since 04/2021
-              </h6>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-body">
-              <h4 class="card-title">Kingston University London</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, enim.</p>
-              <p class="p-2 mb-3 bg-light text-dark">
-                MA Human Rights
-              </p>
-            </div>
-            <div class="card-footer bg-dark">
-              <h6 class="text-white">
-                2013 - 2014
-              </h6>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-body">
-              <h4 class="card-title">FH Campus Wien</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, enim.</p>
-              <p class="p-2 mb-3 bg-light text-dark">
-                Social Work
-              </p>
-            </div>
-            <div class="card-footer bg-dark">
-              <h6 class="text-white">
-                2010 - 2012
-              </h6>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- WORK -->
+    <!-- CODING -->
     <div id="work" class="collapse">
       <div class="card card-body bg-projects py-5 rounded-0">
         <h2>My Projects</h2>
@@ -245,18 +209,18 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <a href="https://lbrcs.github.io/google-homepage" target="_blank" data-toggle="tooltip" data-placement="top" title="Replica of the Google Homepage. Click the image to check out the site!">
-                  <img class="d-block w-100" src="img/Google_Project.png" alt="First slide">
+                <a href="https://beatmatcher.herokuapp.com" target="_blank" data-toggle="tooltip" data-placement="top" title="A web application that gives you the ability to search music on Spotify by tempo and add your favourite songs straight to your account. Click the image to check out the site!">
+                  <img class="d-block w-100" src="img/beatmatcher_screenshot.jpg" alt="First slide">
                 </a>
               </div>
               <div class="carousel-item">
-                <a href="../AufgabeJS/index.html" target="_blank" data-toggle="tooltip" data-placement="top" title="Multiple small JavaScript solutions (click counter, calculator, text combiner and color mixer.) Click the image to check out the site!">
-                  <img class="d-block w-100" src="img/JS_Projects.png" alt="Second slide">
+                <a href="https://lbrcs.github.io/rpsls" target="_blank" data-toggle="tooltip" data-placement="top" title="Multiple small JavaScript solutions (click counter, calculator, text combiner and color mixer.) Click the image to check out the site!">
+                  <img class="d-block w-100" src="img/RPSLS_screen.jpg" alt="Second slide">
                 </a>
               </div>
               <div class="carousel-item">
-                <a href="../AufgabeWebsite/index.html" target="_blank" data-toggle="tooltip" data-placement="top" title="Basic HTML wallpaper resource webpage. Styled with CSS only. Click the image to check out the site!">
-                  <img class="d-block w-100" src="img/HTML_Website.png" alt="Third slide">
+                <a href="https://gitlab.com/lbrcs/portfolio/-/tree/main/java/codeJumper" target="_blank" data-toggle="tooltip" data-placement="top" title="Jump'n'Run game fully programmed in Java as part of a team of two. Click the image to check out the source code and download the game!">
+                  <img class="d-block w-100" src="img/codejumper_screenshot.png" alt="Third slide">
                 </a>
               </div>
             </div>
@@ -273,6 +237,17 @@
       </div>
     </div>
 
+    <!-- UX DESIGN -->
+    <div id="resume" class="collapse">
+      <div class="card card-body bg-cv py-5 rounded-0">
+        <h2>UX Design</h2>
+        <p class="lead">A summary of my latest work experience and professional training</p>
+      </div>
+      <div class="card card-body py-5 rounded-0">
+        <h3>To be continued... <i class="fa-solid fa-helmet-safety"></i></h3>
+      </div>
+    </div>
+
     <!-- CONTACT -->
     <div id="contact" class="collapse">
         <div class="card card-body bg-contact py-5 rounded-0">
@@ -282,7 +257,10 @@
         <div class="card card-body py-5 rounded-0">
           <h3>Questions?</h3>
           <p>I would love to hear from you. You can get in touch via the form below and I am going to get back to you as soon as possible.</p>
-          <form>
+          <form
+            action="https://formspree.io/f/xoqrljkp"
+            method="POST"
+          >
             <div class="form-group">
               <div class="input-group input-group-md">
                 <div class="input-group-prepend">
@@ -290,7 +268,7 @@
                    <i class="fas fa-user-ninja"></i>
                  </span>
                </div>
-              <input type="text" class="form-control bg-dark text-white border-secondary" placeholder="Name">
+              <input type="text" name="name" class="form-control bg-dark text-white border-secondary" placeholder="Name">
             </div>
           </div>
 
@@ -301,7 +279,7 @@
                    <i class="fas fa-at"></i>
                  </span>
                </div>
-              <input type="email" class="form-control bg-dark text-white border-secondary" placeholder="Email">
+              <input type="email" name="email" class="form-control bg-dark text-white border-secondary" placeholder="Email">
             </div>
           </div>
 
@@ -312,7 +290,7 @@
                    <i class="fas fa-keyboard"></i>
                  </span>
                </div>
-              <textarea class="form-control bg-dark text-white border-secondary" placeholder="Your message"></textarea>
+              <textarea name="message" class="form-control bg-dark text-white border-secondary" placeholder="Your message"></textarea>
             </div>
           </div>
 
@@ -322,48 +300,9 @@
     </div>
 
     <footer id="main-footer" class="p-5 bg-dark1 text-white container">
-        <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#myModal">
-          <i class="fas fa-download"></i> Download CV
+        <button type="button" class="btn btn-outline-light" id="light-button" data-toggle="modal" data-target="#myModal">
+          <i class="fa-solid fa-lightbulb"></i> Dim the lights
         </button>
-        <div class="modal fade" id="myModal">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h4 class="modal-title text-dark">Security Check</h4>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-              </div>
-
-              <div class="modal-body text-dark">
-                <form id="test-form" class="was-validated container border border-dark rounded p-2 mt-2">
-                  <div class="form-group">
-                    <label for="form_field_1">Name:</label>
-                    <input type="text" class="form-control" id="form_field_1" placeholder="Enter your name" name="form_field_1" required>
-                    <div class="valid-feedback">valid</div>
-                    <div class="invalid-feedback">*required</div>
-                  </div>
-                  <div class="form-group">
-                    <label for="form_field_2">E-Mail:</label>
-                    <input type="text" class="form-control" id="form_field_2" placeholder="Enter e-mail address" name="form_field_2" required>
-                    <div class="valid-feedback">valid</div>
-                    <div class="invalid-feedback">*required</div>
-                  </div>
-                  <div class="form-group form-check">
-                    <label class="form-check-label">
-                      <input class="form-check-input" type="checkbox" name="remember" required> I agree to the processing of my data.
-                      <div class="valid-feedback">valid</div>
-                      <div class="invalid-feedback">*required</div>
-                    </label>
-                  </div>
-                  <button type="submit" id="submit-form" class="btn btn-dark text-light"><a id="downloadlink" href="pdf/MeinTollerCV.pdf" target="_blank">Submit & Download</a></button>
-                </form> 
-              </div>
-
-              <div class="modal-footer">
-                <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
     </footer>
   </div>
 
@@ -385,6 +324,19 @@
       e.preventDefault();
       $(this).ekkoLightbox();
     });
+    let clicked = false;
+    $('#light-button').click(function() {
+      if(!clicked) {
+        document.getElementById('html_id').style.filter = 'brightness(0.6)';
+        clicked = true;
+        document.getElementById('light-button').style.color = 'black';
+      } else if(clicked) {
+        document.getElementById('html_id').style.filter = 'brightness(1)';
+        clicked = false;
+        document.getElementById('light-button').style.color = 'white';
+      }
+    });
+
   </script>
 
   <script>
@@ -409,7 +361,7 @@
     );
   })
   </script>-->
-
+  </div>
 </body>
 
 </html>
